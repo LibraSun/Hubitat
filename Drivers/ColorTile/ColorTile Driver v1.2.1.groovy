@@ -79,7 +79,7 @@ metadata {
     author: "@LibraSun",
     category: "dashboard",
     importUrl: "https://github.com/LibraSun/Hubitat/blob/main/Drivers/ColorTile/ColorTile%20Driver%20v1.2.1.groovy",
-    documentationUrl: "",
+    documentationUrl: "https://github.com/LibraSun/Hubitat/blob/main/Drivers/ColorTile/README.md",
     singleThreaded: true // for memory efficiency
   ) {
     capability "Actuator"
@@ -281,8 +281,8 @@ void installed() {
   long timeNow = now()
   state.updatedAt = timeNow
   state.author = "@LibraSun"
-  state.FAQ = ""
-  sendEvent(name: "FAQ", value: "<a href='' style='font-size:2em'>❓</a>", descriptionText: "", isStateChange: true)
+  state.FAQ = "https://github.com/LibraSun/Hubitat/blob/main/Drivers/ColorTile/README.md"
+  sendEvent(name: "FAQ", value: "<a href='https://github.com/LibraSun/Hubitat/blob/main/Drivers/ColorTile/README.md' style='font-size:2em'>❓</a>", descriptionText: "", isStateChange: true)
   sendEvent(name: "Log", value: "ColorTile driver installed", descriptionText: "ColorTile driver installed", isStateChange:true)
   log.info "ColorTile driver installed at $timeNow"
   updated()
