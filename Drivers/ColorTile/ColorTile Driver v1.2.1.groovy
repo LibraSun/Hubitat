@@ -78,7 +78,7 @@ metadata {
     namespace: "LibraSunLLC",
     author: "@LibraSun",
     category: "dashboard",
-    importUrl: "https://github.com/LibraSun/Hubitat/blob/main/Drivers/ColorTile/ColorTile%20Driver%20v1.2.1.groovy",
+    importUrl: "Drivers/ColorTile/ColorTile Driver v1.2.1.groovy",
     documentationUrl: "https://github.com/LibraSun/Hubitat/blob/main/Drivers/ColorTile/README.md",
     singleThreaded: true // for memory efficiency
   ) {
