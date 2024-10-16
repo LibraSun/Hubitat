@@ -10,7 +10,7 @@ Creating colorful, animated background and foreground tiles for use on Dashboard
 ColorTile translates device actions, such as Button pushes or Level changes, into full-frame SVG graphics scalable to any size dashboard tile. Colors are assigned either dynamically (based on button number or level set) according to a preset theme, or from a virtually unlimited number of stored presets saved by the user. By mirroring another hub device's actions, a ColorTile – positioned over (or under) other tiles, with appropriate CSS applied to render its own background invisible – serves to highlight any changes to that device's state.
 
 **INSTALLATION**
-ColorTile is not yet available on Hubitat Package Manager. To install, first follow the customary procedure of copying or importing the ColorTile Groovy file into your hub's "Driver Code" section. Then in Devices, [+Add New Device] of type "ColorTIle". Give the new virtual device a name (e.g. "ColorTile - Living Room Lamp) and (optionally) assign it to a Room.
+ColorTile is not yet available on Hubitat Package Manager. To install, first follow the customary procedure of copying or importing the ColorTile Groovy file into your hub's "Driver Code" section. Then in Devices, [+Add New Device] of type "ColorTIle". Give the new virtual device a meaningful name (e.g. "ColorTile - Living Room Lamp) and (optionally) assign it to a Room.
 Note: Multiple ColorTile devices may be installed, ideally one per mirrored "real" device.
 
 **DEPLOYMENT**
