@@ -15,7 +15,7 @@ Note: Multiple ColorTile devices may be installed, ideally one per mirrored "rea
 
 **DEPLOYMENT**
 For best results, install (if necessary) and open the built-in Mirror app to link one or more attributes (e.g. Switch or Level) of a device you would like ColorTile to follow. Because the Mirror app does not include button-capable devices, you may need to create separate rules to automatically transmit button events to ColorTile as they occur.
-Next, include the new ColorTile device to an existing Hubitat (Classic) Dashboard as an Attribute tile, selecting the "Tile Output" attribute. 
+Next, include the new ColorTile device to an existing Hubitat (Classic) Dashboard as an Attribute tile, selecting the "Tile Output" attribute. Hint: If the "Tile Output" attribute is missing from the drop-down list, go press "On" on the ColorTile device's details page.
 
 **DASHBOARD LAYOUT**
 The size and placement of your new ColorTile is entirely up to your imagination, but certain adjustments must be made for the ColorTile to look its best on your Dashboard:
