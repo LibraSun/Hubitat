@@ -37,14 +37,18 @@ Most ColorTile settings (also known as Preferences) should be self-explanatory a
 On each ColorTile device's details page, you will find an assortment of clickable panels, each labeled with the Command it executes along with up to two user-entered values, known as Parameters. Below is a summary of their respective names, inputs and functions:
   |Command|Parameter(s)|Range|Purpose|
   |---|---|---|---|
-  |HOLD|Button* #|1..10+ (no limit)|Each button number can have a custom color
-  |PUSH|Button* #|1..10+ (no limit)|Each button number can have a custom color
-  |RELEASE|Button* #|1..10+ (no limit)|Each button number can have a custom color
-  |OFF|Switch|"Off"| Switch Off state can have a custom color (default: "dark gray")
-  |ON|Switch|"On"|Switch On state can have a custom color (default: "white")
-  |SET LEVEL|Level*|0..100+ (no limit)|Each level number can have a custom color
-  |SAVE LEVEL COLOR|Colorname* and Level* #|see FAQ|Type or paste color names/values to save
-  |SET COLOR|Color Picker*|see FAQ|Choose any HSL, RGB or Hex color value to save
-  |SET HUE|Hue*|(ignored)|_Not yet implemented_
-  |SET SATURATION|Saturation*|(ignored)|_Not yet implemented_
+  |HOLD|Button* #|1..10+ (no upper limit)|Each button number can have a custom color|
+  |PUSH|Button* #|1..10+ (no upper limit)|Each button number can have a custom color|
+  |RELEASE|Button* #|1..10+ (no upper limit)|Each button number can have a custom color|
+  |OFF|Switch|"Off"| Switch Off state can have a custom color (default: "dark gray")|
+  |ON|Switch|"On"|Switch On state can have a custom color (default: "white")|
+  |SET LEVEL|Level*|0..100+ (no upper limit)|Each level number can have a custom color|
+  |SAVE LEVEL COLOR|Colorname* and Level* #|see FAQ|Type or paste color names/values to save|
+  |SET COLOR|Color Picker*|see FAQ|Choose any HSL, RGB or Hex color value to save|
+  |SET HUE|Hue*|(ignored)|_Not yet implemented_|
+  |SET SATURATION|Saturation*|(ignored)|_Not yet implemented_|
+  
   _Note: Parameters* with an asterisk are required; omitting any yields a warning_
+
+**OPERATION**
+_(pending)_
