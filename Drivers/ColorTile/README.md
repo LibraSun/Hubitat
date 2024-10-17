@@ -6,7 +6,7 @@ Hubitat Elevation series
 
 **PURPOSE** 
 
-Creating colorful, animated background and foreground tiles for use on Dashboards.
+ColorTile generates colorful, animated background and foreground tiles for use on Dashboards. 
 
 **OVERVIEW** 
 
