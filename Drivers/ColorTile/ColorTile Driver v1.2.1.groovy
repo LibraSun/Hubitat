@@ -78,8 +78,8 @@ metadata {
     namespace: "LibraSunLLC",
     author: "@LibraSun",
     category: "dashboard",
-    importUrl: "https://github.com/LibraSun/Hubitat/blob/main/Drivers/ColorTile/ColorTile%20Driver%20v1.2.1.groovy",
-    documentationUrl: "https://github.com/LibraSun/Hubitat/blob/7d7db970ea9f1bc5ae9ce1106b99ffa03f842602/Drivers/ColorTile/README.md",
+    importUrl: "https://github.com/LibraSun/Hubitat/blob/0276b0c76d20e45ebc052db306a9e050c39deaec/Drivers/ColorTile/ColorTile%20Driver%20v1.2.1.groovy",
+    documentationUrl: "https://github.com/LibraSun/Hubitat/tree/main/Drivers/ColorTile",
     singleThreaded: true // for memory efficiency
   ) {
     capability "Actuator"
@@ -281,8 +281,8 @@ void installed() {
   long timeNow = now()
   state.updatedAt = timeNow
   state.author = "@LibraSun"
-  state.FAQ = "https://github.com/LibraSun/Hubitat/blob/main/Drivers/ColorTile/README.md"
-  sendEvent(name: "FAQ", value: "<a href='https://github.com/LibraSun/Hubitat/blob/7d7db970ea9f1bc5ae9ce1106b99ffa03f842602/Drivers/ColorTile/README.md' style='font-size:2em'>❓</a>", descriptionText: "", isStateChange: true)
+  state.FAQ = "https://github.com/LibraSun/Hubitat/tree/main/Drivers/ColorTile"
+  sendEvent(name: "FAQ", value: "<a href='https://github.com/LibraSun/Hubitat/tree/main/Drivers/ColorTile' style='font-size:2em'>❓</a>", descriptionText: "", isStateChange: true)
   sendEvent(name: "Log", value: "ColorTile driver installed", descriptionText: "ColorTile driver installed", isStateChange:true)
   log.info "ColorTile driver installed at $timeNow"
   updated()
