@@ -25,7 +25,7 @@ Next, include the new ColorTile device to an existing Hubitat (Classic) Dashboar
 **DASHBOARD LAYOUT**
 
 The size and placement of your new ColorTile is entirely up to your imagination, but certain adjustments must be made for the ColorTile to look its best on your Dashboard:
-1. Decide whether the ColorTile will be placed underneath another tile (or grouping of tiles) as a _background_ or on top, as an _overlay_. Warning: Stacking tiles blocks manual control of any covered tiles, so only use Overlay mode if the underlying tile(s) is strictly visual or informational, like a gauge or sensor.
+1. Decide whether the ColorTile will be placed underneath another tile (or grouping of tiles) as a _background_ or on top, as an _overlay_. (Warning: Stacking tiles blocks manual control of any covered tiles, so only use Overlay mode if the underlying tile(s) is strictly visual or informational, like a gauge or sensor. This effect can be overcome by altering the tiles' respective z-index values in CSS; however, that is beyond the scope of this tutorial.)
 2. Open your dashboard and click its Gear > Advanced > Layout menu to reveal the JSON code that governs how everything is laid out. Scroll down (probably to the end) of the **"Tiles:"[ ]** section to find the **{ "ColorTile" }** block. Cut and paste that block into either the first position (for _background_ use) or last position (for _overlay_ use), otherwise taking care not to disturb the overall JSON structure. Click **Save Layout JSON**
 3. Make a note of the ColorTile's unique **"id:"**, as that will be needed next for CSS styling.
 4. Click CSS along the top menu, and paste the following into its editing box:
